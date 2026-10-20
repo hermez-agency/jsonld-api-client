@@ -13,15 +13,18 @@
     "typescript"
   ],
   "license": "MIT",
-  "author": "Salvador Cardona",
+  "author": {
+    "name": "Hermez",
+    "url": "https://hermez.dev"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SalvadorCardona/jsonld-api-client.git"
+    "url": "git+https://github.com/hermez-agency/jsonld-api-client.git"
   },
   "bugs": {
-    "url": "https://github.com/SalvadorCardona/jsonld-api-client/issues"
+    "url": "https://github.com/hermez-agency/jsonld-api-client/issues"
   },
-  "homepage": "https://github.com/SalvadorCardona/jsonld-api-client#readme",
+  "homepage": "https://github.com/hermez-agency/jsonld-api-client#readme",
   "type": "module",
   "sideEffects": false,
   "files": [
