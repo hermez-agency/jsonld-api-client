@@ -15,6 +15,10 @@ interface UseMercureReturn<T = any> {
  *
  * `data` holds the last message, parsed as JSON when possible. Pass a handler
  * to `onChange` to react to each event without waiting for a render.
+ *
+ * @param topic The Mercure topic to subscribe to. Nothing happens while it is `undefined`.
+ * @param disabled Despite its name, it enables the subscription: the hook
+ * subscribes only while it is `true` (the default).
  */
 export function useMercure<T = any>(
   topic: string | undefined,
